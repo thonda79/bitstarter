@@ -4,7 +4,7 @@ var app = express.createServer(express.logger());
 
 var buffer = fs.readFileSync('./index.html');
 
-var phrase = "Hello World 2!"
+var phrase = "Hello World 2!";
 
 
 app.get('/', function(request, response) {
