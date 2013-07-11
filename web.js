@@ -10,7 +10,7 @@ var phrase = "Hello World 2!";
 
 
 app.get('/', function(request, response) {
-  response.send(phrase);
+  response.send(buffer)
 });
 
 var port = process.env.PORT || 5000;
