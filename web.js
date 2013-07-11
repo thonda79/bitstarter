@@ -2,7 +2,9 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-//var buffer = fs.readFileSync('./index.html');
+var fs = require('fs');
+
+var buffer = fs.readFileSync('./index.html');
 
 var phrase = "Hello World 2!";
 
